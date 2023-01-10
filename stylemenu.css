@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+:root{
+
+    --cor1:#005BFF;
+    --cor2:#002D80;
+    --cor3:#4D8BFF;
+    --cor4:#264580;
+    --cor5:#0047CC;
+    
+    --fonte-01: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-02: 'Permanent Marker', cursive;
+    --fonte-03: 'Seymour One', sans-serif;
+}
+
+h1.h1menu{
+    display: inline;
+    margin-right: 100px ;
+}
+header nav a{
+    
+    margin-right: 30px;
+    font-size: 1em;
+    font-family: var(--fonte-01);
+    text-align: center;
+    
+}
+
+nav{
+    background-image: linear-gradient(to right, black,  black);
+    
+    padding: 40px 41px 40px 20px;
+    border-radius: 2px;
+    text-align: center;
+    
+}
+
